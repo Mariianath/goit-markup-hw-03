@@ -52,8 +52,8 @@ address {
   justify-content: center;
   align-items: center;
   width: 1200px;
-  margin-top: 94px;
-  padding: 0 200px;
+  /*margin-top: 94px;*/
+  padding: 94px 200px 0;
   /*flex-wrap: wrap;*/
 }
 
@@ -76,6 +76,7 @@ address {
 .nav-bar {
   height: 80px;
   margin-top: 0;
+  padding-top: 0;
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -169,6 +170,7 @@ address {
   color: rgba(255, 0, 0, 0);
 }*/
 .feature-list {
+  display: flex;
 }
 .feature-ithem {
   box-sizing: border-box;
@@ -227,11 +229,11 @@ address {
   letter-spacing: 0.03em;
   /*padding-top: 95px;*/
 }
-.team-section .container {
+.team-section {
   background-color: #f5f4fa;
   flex-direction: column;
   margin-top: 154px;
-  padding: 94px 200px 35px;
+  padding-bottom: 94px;
 }
 .team-list {
   /*margin-bottom: 35px;*/
@@ -358,7 +360,7 @@ div.footer {
 
 /*our results*/
 .works-container {
-  padding: 0 215px 94px;
+  padding-bottom: 94px;
 }
 .work-list {
   display: flex;
